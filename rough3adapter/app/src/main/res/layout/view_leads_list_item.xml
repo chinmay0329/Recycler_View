@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer First Name"
+            android:textSize="15dp"
+            android:id="@+id/tvCustFname"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:id="@+id/tv_CustFname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_alignTop="@+id/tvCustFname"
+            android:layout_toEndOf="@+id/tvCustFname"
+            android:hint="Text"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Last Name"
+            android:textSize="15dp"
+            android:id="@+id/tvCustLname"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/tvCustFname"
+            android:layout_marginTop="30dp" />
+        <TextView
+            android:id="@+id/tv_CustLname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_alignTop="@+id/tvCustLname"
+            android:layout_toEndOf="@+id/tvCustFname"
+            android:hint="Text"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Email"
+            android:textSize="15dp"
+            android:id="@+id/tvCustEmail"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/tvCustLname"
+            android:layout_marginTop="30dp" />
+        <TextView
+            android:id="@+id/tv_CustEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_alignTop="@+id/tvCustEmail"
+            android:layout_toEndOf="@+id/tvCustFname"
+            android:hint="Text"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Mobile No."
+            android:textSize="15dp"
+            android:id="@+id/tvCustMobile"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/tvCustEmail"
+            android:layout_marginTop="30dp" />
+        <TextView
+            android:id="@+id/tv_CustMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_alignTop="@+id/tvCustMobile"
+            android:layout_toEndOf="@+id/tvCustFname"
+            android:hint="Text"
+            android:textSize="15dp"
+            android:layout_marginBottom="10dp"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
